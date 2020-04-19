@@ -28,10 +28,10 @@ manually make `seeds/users.js`
 
 Launch: `yarn serve`
 
-### Knex
+### Vuex
 
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9i371QO_Rtkl26MwtiJ30P2
 
-![]('https://raw.githubusercontent.com/Ruslan-Aliyev/bgtracker/master/Illustrations/1.jpg')
+![](https://raw.githubusercontent.com/Ruslan-Aliyev/bgtracker/master/Illustrations/1.jpg)
 
-![]('https://raw.githubusercontent.com/Ruslan-Aliyev/bgtracker/master/Illustrations/2.jpg')
+![](https://raw.githubusercontent.com/Ruslan-Aliyev/bgtracker/master/Illustrations/2.jpg)
