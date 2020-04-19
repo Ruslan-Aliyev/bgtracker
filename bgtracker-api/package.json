@@ -1,0 +1,24 @@
+{
+  "name": "bgtracker-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.0",
+    "pg": "^8.0.2"
+  },
+  "scripts": {
+    "serve": "cross-env NODE_ENV=development nodemon src/server.js",
+    "knex:make": "cross-env NODE_ENV=development knex migrate:make --knexfile src/knexfile.js",
+    "knex:migrate": "cross-env NODE_ENV=development knex migrate:latest --knexfile src/knexfile.js",
+    "knex:rollback": "cross-env NODE_ENV=development knex migrate:rollback --knexfile src/knexfile.js",
+    "knex:seed": "cross-env NODE_ENV=development knex seed:run --knexfile src/knexfile.js"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.3"
+  }
+}
